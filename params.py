@@ -1,0 +1,30 @@
+train_single = 'horse'
+examplar_sz = 127
+search_sz = 255
+label_sz = 17
+# label_sz = 33
+context = 0.5
+batch_sz = 8
+# rPos = 2
+rPos = 4
+learning_rate_top = 1e-3
+learning_rate_bound = 1e-5
+epochs = 10
+dataset_dir = 'D:\\dataset\\VOT-TIR'
+response_up = 8
+window_influence = 0.25
+z_lr = 0.008
+scale_num = 5
+scale_step = 1.04
+scale_penalty = 0.97
+scale_lr = 0.35
+scale_min = 0.2
+scale_max = 5
+final_score_sz = 272
+total_stride = 2
+# response_up = 16
+dist_threshold = 20
+gt_file = 'gt.txt'
+track_videos = ['birds']
+
+
